@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    grid-template-columns: 25% 15% 15% 15% 15% 15%;
+}
+
+.items{
+    background-color: lightgray;
+    padding: 2px;
+    text-align: center;
+}
+
+.purchase{
+    grid-column: 1 / span 1;
+}
+
+.service{
+    grid-column: 1 / span 1;
+}
+
+.companyoverall{
+    grid-column: 1 / span 1;
+}
+
+.buy{
+    grid-column: 1 / span 1;
+}
+
+.product{
+    grid-column: 1 / span 1;
+}
+
+.company{
+    grid-column: 1 / span 1;
+}
+
+.material-symbols-outlined{
+    color: gold;
+}
